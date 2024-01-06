@@ -3,6 +3,163 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
 }
 
-        /* header-area end */
+/* ======= primarry css start ========= */
+
+/* ======= primarry css end ========= */
+/* navigation-area start */
+navbar{
+    background: white;
+}
+a.navbar-brand {
+    font-size: 2.25rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+nav.navbar {
+    box-shadow: 0 0 10px 0;
+    background: #fff;
+}
+a.navbar-brand span {
+    color: #007bff;
+}
+a.icon {
+    font-size: 20px;
+    color: #007bff;
+    padding: 6px;
+}
+
+a.nav-link {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.nav-link:hover{
+    color: #007bff;
+}
+/* navigation-area end */
+/* main-section-area start */
+ .main{
+    display: flex;
+    background-image: url(portfolio_img/myimage.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    overflow: hidden;
+     /* background-size: 
+    /* width: 100%;*/
+    height: 95vh;
+} 
+.main h3 {
+    font-size: 3rem!important;
+    line-height: 1.25!important;
+}
+.main p {--tw-text-opacity: 1!important;
+    color: rgb(132 146 166 / var(--tw-text-opacity))!important;
+}
+.col-lg-6.py-5 {
+    margin-top: 16%;
+}
+button.text_primary a {
+    text-decoration: none;
+}
+button.btn.btn-primary {
+    padding: 0.5rem 2rem;
+    background: #007bff;
+}
+button.btn.btn-outline-primary {
+    padding: 8px 45px;
+}
+button.btn.btn-outline-primary:hover{
+    background: #007bff;
+    transition: 0.5s;
+}
+/* main-section-area end */
+/* Personal Details start */
+ .bg-light{
+    margin: 20px auto;
+}
+a.text-black {
+    text-decoration: none;
+}
+/* Personal Details End */
+
+/* <!-- =========== services area start ===========  --> */
+
+.card.text-left.py-3{
+    border-radius: 14px;
+    padding: 16px;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+}
+.card p{
+    color: gray;
+}
+.icon > span > i{
+    font-size: 30px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+.card a {
+    text-decoration: none;
+    color: #007bff;
+}
+i.fa-solid.fa-greater-than {
+    font-size: 10px;
+    padding-left: 5px;
+}
+/*<!-- =========== services area end ===========  --> */
+
+
+/* <!-- ===========work portfolio End ===========  --> */
+
+.item{
+    position: relative;
+}
+.item:hover{
+    -webkit-box-shadow: -18px 3px 109px -65px rgba(0,0,0,0.75);
+    -moz-box-shadow: -18px 3px 109px -65px rgba(0,0,0,0.75);
+    box-shadow: -18px 3px 109px -65px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.item span{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 40px;
+    color: #007bff;
+    cursor: pointer;
+    opacity: 0;
+}
+.item:hover span{
+    opacity: 1;
+    transition: 0.5s;
+}
+.item:before{
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(238, 235, 230, 0.568);
+    opacity: 0;
+    position: absolute;
+}
+.item:hover:before{
+    opacity: 1;
+    transition: 0.3s;
+}
+p.text-center.pb-5 {
+    color: gray;
+}
+/* <!-- ===========work portfolio End ===========  --> */
