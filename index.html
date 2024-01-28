@@ -5,95 +5,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="portfolio_img/favicon.png">
     <link rel="stylesheet" href="css_icon/all.min.css">
     <link rel="stylesheet" href="css_icon/fontawesome.min.css">
     <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
 </head>
 <body>
        <!-- navigation-area start -->
-        <nav class="navbar navbar-expand-lg fixed-top">
+       <nav class="navbar bg-body-tertiary navbar-expand-lg shadow">
         <div class="container">
-          <a class="navbar-brand font-weight-bold" href="#">Af<span>r</span>in</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand fs-1 fw-bold" href="#">Af<span class="text-primary">r</span>in</a>
+          <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto ">
-              <a class="nav-link active px-lg-4" href="#">Home</a>
-               <a class="nav-link px-lg-3" href="#">SERVICES</a>
-              <a class="nav-link px-lg-3" href="#">RESUME</a>
-              <a class="nav-link px-lg-3" href="#">PROJECTS</a>
-              <a class="nav-link px-lg-3" href="#">SERVICES</a>
-              <a class="nav-link px-lg-3" href="#">CONTACT</a>
-              <a class="nav-link px-lg-3" href="#">PAGES</a>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="header-icn">
-              <a class="icon" href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a class="icon" href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
-                <a class="icon" href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">RESUME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">PROJECTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">PAGES</a>
+                  </li>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-primary">Download Resume</button>
             </div>
           </div>
         </div>
       </nav>
+       <!-- <nav class="shadow-sm">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <label class="logo">Af<span>r</span>in</label>
+        <ul>
+            <li><a class="active" href="#">HOME</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">RESUME</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">PAGES</a></li>
+            </ul>
+    </nav> -->
+     
 <!-- navigation-area end -->
 
 <!-- main secction area start  -->
-      <section class="main col-lg-12 col-sm-12 col-md-6 col-xl-12 col-xxl-12 py-5">
-        <div class="container py-5">
-          <div class="row py-5">
+<div id="header">
+  <div class="container text-center">
+    <div class="row text-start p-5">
+      <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 
+      ">
+      <h3 class="pt-5 pb-2 mt-5 fs-1">Here I'am Afrin</h3>
+      <p class="pb-2">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. <br>Experienced with all stages of the development</p>
+      <button type="button" class="btn btn-primary btn-lg px-5 mb-2">Hire Me</button>
+      <button type="button" class="btn download-btn border border-primary btn-lg px-5 text-primary mb-2">Download CV <i class="fa-solid fa-download"></i></button>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 bg-light
+      ">
+        <img src="portfolio_img/meimg.png" class="w-[100%]">
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+
+      <!-- <section class="main col-lg-12 col-sm-12 col-md-6 col-xl-12 col-xxl-12 py-5">
+        <div class="container-lg  py-5 flex-container">
+          <div class="row ">
             <div class="col-lg-6 py-5">
-              <div class="rounded-3xl bg-white inline-block shadow py-2 px-3.5 relative mb-4 text-sm">
-                <span class="bg-primary rounded-3xl py-1 px-2.5 me-1 text-xs inline-block text-white font-bold">Hot</span>
-                <span class="text-sm font-semibold">Looking for a Designer !</span>
+              <h3>Here I'am Afrin</h3>
+              <p pt-3>Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development</p>
+              <button type="button" class="btn btn-primary">Hire Me</button>
+              <button type="button" class="btn btn-outline-primary">Download CV <i class="fa-solid fa-download"></i></button>
             </div>
-            <h3>Here I'am Afrin</h3>
-            <p pt-3>Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development</p>
-            <button type="button" class="btn btn-primary">Hire Me</button>
-            <button type="button" class="btn btn-outline-primary">Download CV <i class="fa-solid fa-download"></i></button>
             
-            </div>
+            <div class="col-lg-6 right">
+              <img src="portfolio_img/afrin.jpg" alt="">
+           
+          </div>
           </div>
         </div>
-      </section>
+      </section> -->
 <!-- main secction area end  -->
 
-
     <!-- =========== Personal Details Start ===========  -->
-    <section class="bg-light relative  py-5 ">
-      <div class="container  py-5 ">
-        <div class="row  py-5 ">
-          <div class="col-4 Personal-details"> 
-            <div class="lg:col-span-3 md:col-span-4">
-              <div class="bg-light rounded-xl relative overflow-hidden p-5 shadow">
-                  <div class="media-body content">
-                      <h6 class="title mb-2 font-semibold text-lg">Personal Details</h6>
-                      <div class="mt-2 mb-2 p-0 border-dashed border border-[#d4dae1]"></div>
-                      <p class="text-muted mb-2 mt-3 text-sm"><a href="#" class="text-black">Email: </a> queue@gmail.com</p>
-                      <p class="text-muted mb-2 text-sm"><a href="#" class="text-black">Languages: </a> English</p>
-                      <p class="text-muted mb-0 text-sm"><a href="#" class="text-black">Nationality: </a> Australian</p>
-                  </div>
+
+    <section class="main col-lg-12 col-sm-12 col-md-6 col-xl-12 col-xxl-12 py-5">
+      <div class="container-lg  py-5 flex-container shadow-lg p-5">
+        <div class="row py-5">
+          <div class="col-lg-4 shadow  p-5 rounded">
+            <p class="text-muted mb-2 mt-3 text-sm"><a href="#" class="text-black">Email: </a> queue@gmail.com</p>
+                          <p class="text-muted mb-2 text-sm"><a href="#" class="text-black">Languages: </a> English</p>
+                          <p class="text-muted mb-0 text-sm"><a href="#" class="text-black">Nationality: </a> Australian</p>
+          </div>
+          
+          <div class="col-lg-8 shadow right">
+            <div class=" p-5">
+            <h4 class="me-2 text-2xl">I Am Webdeveloper</h4>
+            <p class="text-light-muted mt-2 mb-4 leading-6 text-base">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. 
+                Experienced with all stages of the development cycle for dynamic web projects. 
+                The as opposed to using 'Content here, content here', making it look like readable English.</p>
+                <h3 class="signuture"><i>Sabikun Nahar Afrin</i>  </h3>
+                <!-- <img src="portfolio_img/singeture.png" class="signuture"> -->
               </div>
-          </div>
-      </div>
-          <div class="col-8 about-me bg-light rounded-xl relative overflow-hidden p-5 shadow">
-            <div class="lg:col-span-9 md:col-span-8">
-              <div class="items-end md:text-start">
-                  <h4 class="me-2 text-2xl">I Am Webdeveloper<span class="typewrite text-primary" data-period="2000" data-type='[ "Web Designer", "Web Developer", "Photographer"]'></span></h4>
-                  <p class="text-light-muted mt-2 mb-4 leading-6 text-base">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. 
-                      Experienced with all stages of the development cycle for dynamic web projects. 
-                      The as opposed to using 'Content here, content here', making it look like readable English.</p>
-                  <img src="portfolio_img/" class="h-9 align-middle">                                    
-              </div>
-          </div>
-          </div>
+        </div>
         </div>
       </div>
-      </div>
     </section>
-
+   
   <!-- =========== Personal Details End ===========  -->
 
 
+  
 
    <!-- =========== services area start ===========  -->
    <section class="services py-5 bg-light">
@@ -189,6 +244,88 @@
    </section>
      <!-- ===========services area End ===========  -->
 
+
+
+ 
+
+
+
+  <!-- =========== Client Start ===========  -->
+  <secction class="Client py-5 relative md:py-24 py-16 bg-[url(portfolio_img/2.jpg)]" id="percent">
+    <div class="container-lg py-5">
+      <div class="row justify-content-center" >
+        <div class="col-lg-12">
+          <div class="row text-center">
+            <div class="col-md-6 col-lg-3">
+              <div class="percent-item shadow-sm p-5 rounded bg-white">
+                <h2>97%</h2>
+                <h3  class="mb-0 text-xl leading-6">Happy Client</h3>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 ">
+              <div class="percent-item shadow-sm p-5 rounded bg-white">
+                <h2>36 M</h2>
+                <h3  class="mb-0 text-xl leading-6">Download</h3>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 ">
+              <div class="percent-item shadow-sm p-5 rounded bg-white">
+                <h2>3261 +</h2>
+                <h3  class="mb-0 text-xl leading-6">Happy Users
+                </h3>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 ">
+              <div class="percent-item shadow-sm p-5 rounded bg-white">
+                <h2>39 +</h2>
+                <h3  class="mb-0 text-xl leading-6">Years of expe.
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </secction>
+ 
+<!-- =========== Client End ===========  -->
+
+<!-- work-expertise-start -->
+
+  
+<section class="main col-lg-12 col-sm-12 col-md-6 col-xl-12 col-xxl-12 py-5">
+  <div class="container-lg  py-5 flex-container">
+   
+    <div class="row ">    
+      <div class="col-lg-6 right">
+        <img src="portfolio_img/afrin-flip.jpg" alt="">
+    </div>
+    <div class="col-lg-6 py-5">      
+        <h1 class="text-center ">Work Expertise</h1>
+        <p class="text-center pb-5">Obviously I'm a Web Designer. Experienced with all stages of the development <br>cycle for dynamic web projects.</p>
+        <div class="cod_icon ">
+        <img src="portfolio_img/html.jpg " class="rounded-circle programming-icon" alt="" style="width: 15%;">
+        <img src="portfolio_img/css.png"  class="rounded-circle programming-icon"alt="" style="width: 15%;">
+        <img src="portfolio_img/bootstrap.svg" class="rounded-circle programming-icon" alt="" style="width: 15%;">
+        <img src="portfolio_img/javascript.jpg" class="rounded-circle programming-icon" alt="" style="width: 15%;">
+      </div>
+      <div class="cod_icon mt-5 ">
+        <img src="portfolio_img/html.jpg " class="rounded-circle programming-icon" alt="" style="width: 15%;">
+        <img src="portfolio_img/css.png"  class="rounded-circle programming-icon"alt="" style="width: 15%;">
+        <img src="portfolio_img/bootstrap.svg" class="rounded-circle programming-icon" alt="" style="width: 15%;">
+        <img src="portfolio_img/javascript.jpg" class="rounded-circle programming-icon" alt="" style="width: 15%;">
+      </div>
+
+    </div>
+    </div>
+  </div>
+</section>
+<!-- work-expertise-end -->
+
       <!-- ===========work portfolio area start ===========  -->
 
       <section class="portfolio py-5">
@@ -235,10 +372,330 @@
               <img src="portfolio_img/6.jpg" class="img-fluid" alt="">
               <span><i class="fa-solid fa-plus"></i></span>
             </div>
-          </div>  
+              </div> 
+              <button type="button" class="btn btn-primary click">See More <i class="fa-solid fa-greater-than"></i></button> 
           </div>
       </section>
        <!-- ===========work portfolio End ===========  -->
+
+       <!-- =========== Client says start ===========  -->
+
+   <section class="testimonial">
+      <h2 class="text-center ">Clients Say</h2>
+      <p class="text-center pb-3">Obviously I'm a Web Designer. Experienced with all stages of the development <br>cycle for dynamic web projects.</p>
+      <div class="testimonial_container">
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" class="client_btn" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 0"></button>
+            </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6">                               
+                      <div class="card text-left py-3">
+                        <div class="card-body">
+                          <div class="client_img">
+                            <img src="portfolio_img/01.jpg" alt="">
+                          </div><br>
+                          <div class="grid grid-clos-1 text-start">
+                            <h5 class="font-bold text-lg text-black mt-2 mb-2">Ralph Edwards </h5>
+                            <ul class="mb-0">
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        </div>
+                      </div>
+                     </div>
+
+                     <div class="col-lg-4 col-md-6">                               
+                      <div class="card text-left py-3">
+                        <div class="card-body">
+                          <div class="client_img">
+                            <img src="portfolio_img/female-4.jpg" alt="">
+                          </div><br>
+                             <div class="grid grid-clos-1 text-start">
+                            <h5 class="font-bold text-lg text-black mt-2 mb-2">Jenny Wilson</h5>
+                            <ul class="mb-0">
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+
+
+                          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        </div>
+                      </div>
+                     </div>
+
+                     <div class="col-lg-4 col-md-6">                               
+                      <div class="card text-left py-3">
+                        <div class="card-body">
+                          <div class="client_img">
+                            <img src="portfolio_img/male-1.jpg" alt="">
+                          </div><br>
+                          <div class="grid grid-clos-1 text-start">
+                            <h5 class="font-bold text-lg text-black mt-2 mb-2">Courtney Henry</h5>
+                            <ul class="mb-0">
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        </div>
+                      </div>
+                     </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6">                               
+                      <div class="card text-left py-3">
+                        <div class="card-body">
+                          <div class="client_img">
+                            <img src="portfolio_img/female-3.jpg" alt="">
+                          </div><br>
+                          <div class="grid grid-clos-1 text-start">
+                            <h5 class="font-bold text-lg text-black mt-2 mb-2">Esther Howard</h5>
+                            <ul class="mb-0">
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        </div>
+                      </div>
+                     </div>
+
+                     <div class="col-lg-4 col-md-6">                               
+                      <div class="card text-left py-3">
+                        <div class="card-body">
+                          <div class="client_img">
+                            <img src="portfolio_img/01.jpg" alt="">
+                          </div><br>
+                          <div class="grid grid-clos-1 text-start">
+                            <h5 class="font-bold text-lg text-black mt-2 mb-2">Ralph Edwards</h5>
+                            <ul class="mb-0">
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        </div>
+                      </div>
+                     </div>
+
+                     <div class="col-lg-4 col-md-6">                               
+                      <div class="card text-left py-3">
+                        <div class="card-body">
+                          <div class="client_img">
+                            <img src="portfolio_img/female-4.jpg" alt="">
+                          </div><br>
+                          <div class="grid grid-clos-1 text-start">
+                            <h5 class="font-bold text-lg text-black mt-2 mb-2">Jenny Wilson</h5>
+                            <ul class="mb-0">
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                                <li class="inline-block text-[#ffc107]"><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        </div>
+                      </div>
+                     </div>
+
+                             
+                </div>
+              </div>
+            </div>
+
+
+
+            </div>
+            </div>
+          </div>
+
+      </div>
+   </section>
+   
+      <!-- =========== Client says end ===========  -->
+
+      <!-- =========== Blog area start ===========  -->
+
+      <section class="services py-5 bg-light">
+        <div class="container py-5">
+          <h1 class=" " style="text-align: center;">Latest News & Blog</h1>
+          <p class=" pb-5" style="text-align: center;">Obviously I'm a Web Designer. Experienced with all stages of the development <br> cycle for dynamic web projects.</p>
+           <div class="row ">
+
+            <div class="col-lg-4 ">
+              <div class="card card_body" >
+                <img src="portfolio_img/1 (1).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Design your apps in your own way</h5>
+                  <p class="card-text">This is required when, for example, the final text is not yet available.</p>
+                  <a href="#" class="" >Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 ">
+              <div class="card card_body" >
+                <img src="portfolio_img/2 (1).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">How apps is changing the it world </h5>
+                  <p class="card-text">This is required when, for example, the final text is not yet available.</p>
+                  <a href="#" class="">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 ">
+              
+            <div class="card card_body" >
+              <img src="portfolio_img/3 (1).jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Smartest applications for business</h5>
+                <p class="card-text">This is required when, for example, the final text is not yet available.</p>
+                <a href="#" class="">Go somewhere</a>
+              </div>
+            </div>
+            </div>
+          
+          </div>
+        </div>
+       </section>
+
+       <!-- =========== Blog area end ===========  -->
+
+       <!-- =========== contact area start ===========  -->
+       <section class="services py-5 bg-light">
+        <div class="container py-5  contact-area">
+          <h1 class="text-center  ">Contact Me</h1>
+          <p class="text-center pb-5">Obviously I'm a Web Designer. Experienced with all stages of the development <br> cycle for dynamic web projects.</p>
+           <div class="row">
+         
+            <div class="col-lg-4 ">
+              <div class="card text-center card_area mb-3">
+                <div class="card-body rounded shadow-sm p-5">
+                  <i class="fa-solid fa-phone cnt_icon"></i>
+                  <h5 class="card-title">Phone</h5>
+                  <p class="card-text card-para">Promising development turmoil inclusive education transformative community</p>
+                  <a href="#">+152 534-468-854</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 ">
+              <div class="card text-center card_area mb-3">
+                <div class="card-body rounded shadow-sm p-5">
+                  <i class="fa-solid fa-envelope cnt_icon"></i>
+                  <h5 class="card-title">Email</h5>
+                  <p class="card-text card-para">Promising development turmoil inclusive education transformative community</p>
+                  <a href="#">contact@example.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 ">
+              <div class="card text-center card_area mb-3" >
+                <div class="card-body rounded shadow-sm p-5">
+                  <i class="fa-solid fa-location-dot cnt_icon"></i>
+                  <h5 class="card-title">Location</h5>
+                  <p class="card-text card-para">Promising development turmoil inclusive education transformative community</p>
+                  <a href="#">View on Google map</a>
+                </div>
+              </div>
+            </div>       
+
+    
+          </div>
+        </div>
+       </section>
+       <!-- =========== contact area end ===========  -->
+
+       <!-- =========== Form area start ===========  -->
+       
+       <section class="services py-5 bg-light">
+        <div class="container py-5  contact-area">
+          <h1 class="text-center  ">Contact Me</h1>
+          <p class="text-center pb-5">Obviously I'm a Web Designer. Experienced with all stages of the development <br> cycle for dynamic web projects.</p>
+
+          <div class="container text-center">
+            <div class="row justify-content-start">
+              <div class="col-lg-12">
+                <form>
+                  <div class="mb-3 input_frm">
+                    <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Frist Name:">
+                    </div>
+                    <div class="mb-3 input_frm">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email:">
+                    </div>
+                    <div class="mb-3 input_frm">
+                     <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Your Subject:">
+                    </div>
+                    
+                      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">Comments</textarea>                
+               </div>
+                </form>
+              </div>
+                          
+
+                   
+               <!-- =========== Form area end ===========  -->
+
+               <!-- =========== Queue area start ===========  -->
+
+               <section class="services d-flex py-5 bg-light">
+                <div class="container py-5">
+                  <h1 class="text-center queue_h1">Queue</h1>
+                  <p class="text-center pb-5">Obviously I'm a Web Designer. Experienced with all stages of the development <br> cycle for dynamic web projects.</p>
+                  <div class="queue_icon">
+                  <i class="fa-brands fa-facebook row_icon"></i><i class="fa-brands fa-twitter row_icon"></i><i class="fa-brands fa-square-instagram row_icon"></i><i class="fa-brands fa-whatsapp row_icon"></i><i class="fa-brands fa-linkedin row_icon"></i>
+                </div>
+                 
+             
+            
+                  </div>
+                </div>
+               </section>
+
+               <!-- =========== Queue area end ===========  -->
+
+               <!-- =========== Footer area start ===========  -->
+           
+              <div class="footer_area">
+                <div class="footer container">
+                  <p class="text-center pb-5 footer_text">© 2024 Queue. Design by Zoyothemes</p>
+                </div>
+              </div>
+           
+
+               <!-- =========== Footer area end ===========  -->
+
+               <!-- IBM <= 18.5 ? console.log('underWeight'): IBM >= 18.5 && IBM <= 24.9 ? console.log('you normal'):IBM >=25 && IBM <=25 ? console.log('you overWeight'): console.log('you are obese') -->
+
 
 <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
 <script src="./bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>

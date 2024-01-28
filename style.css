@@ -13,60 +13,18 @@ body{
 /* ======= primarry css start ========= */
 
 /* ======= primarry css end ========= */
-/* navigation-area start */
-navbar{
-    background: white;
-}
-a.navbar-brand {
-    font-size: 2.25rem;
-    font-weight: 700;
-    cursor: pointer;
-}
-nav.navbar {
-    box-shadow: 0 0 10px 0;
-    background: #fff;
-}
-a.navbar-brand span {
-    color: #007bff;
-}
-a.icon {
-    font-size: 20px;
-    color: #007bff;
-    padding: 6px;
-}
 
-a.nav-link {
-    color: #000;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    text-decoration: none;
-}
-a.nav-link:hover{
-    color: #007bff;
-}
-/* navigation-area end */
-/* main-section-area start */
- .main{
-    display: flex;
-    background-image: url(portfolio_img/myimage.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    overflow: hidden;
-     /* background-size: 
-    /* width: 100%;*/
-    height: 95vh;
-} 
-.main h3 {
+/* navigation-area start */
+
+
+/* .main h3 {
     font-size: 3rem!important;
     line-height: 1.25!important;
 }
 .main p {--tw-text-opacity: 1!important;
     color: rgb(132 146 166 / var(--tw-text-opacity))!important;
 }
-.col-lg-6.py-5 {
-    margin-top: 16%;
-}
+.col-lg-6.py-5 {margin-top: 12%;}
 button.text_primary a {
     text-decoration: none;
 }
@@ -80,7 +38,7 @@ button.btn.btn-outline-primary {
 button.btn.btn-outline-primary:hover{
     background: #007bff;
     transition: 0.5s;
-}
+} */
 /* main-section-area end */
 /* Personal Details start */
  .bg-light{
@@ -102,6 +60,9 @@ a.text-black {
     -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
     box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
 }
+.programming-icon {
+    margin-left: 7%;
+}
 .card p{
     color: gray;
 }
@@ -117,6 +78,12 @@ a.text-black {
 i.fa-solid.fa-greater-than {
     font-size: 10px;
     padding-left: 5px;
+}
+.col-lg-6.right {
+    text-align: right;
+}
+.col-lg-6.right img {
+    width: 90%;
 }
 /*<!-- =========== services area end ===========  --> */
 
@@ -163,3 +130,190 @@ p.text-center.pb-5 {
     color: gray;
 }
 /* <!-- ===========work portfolio End ===========  --> */
+
+/* <!-- =========== Client Start ===========  --> */
+
+.testimonial_container{
+    padding: 23px 0px;
+    margin: 52px 0px;
+}
+.img_testimonial{
+    width: 420px;
+    height: 320px;
+}
+button.active {
+    background: radial-gradient(#007bff, #007bff);
+}
+
+button.btn.btn-primary.click {
+    width: 13%;
+    height: 45px;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 3%;
+}
+.client_img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+ul.mb-0 {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    color: #ffc107;
+    font-size: 12px;
+}
+ul.mb-0 li {
+    padding: 3px;
+}
+.card-body p {
+    text-align: justify;
+}
+button.client_btn {
+    background: radial-gradient(#007bff, #007bff);
+}
+/* <!-- =========== Client Start ===========  --> */
+
+/* =========== Blog area start =========== */
+.card.card_body {
+    margin-left: 1%;
+}
+
+/* =========== Blog area end =========== */
+
+/* =========== contact area start ===========  */
+.card.text-center.card_area.mb-3 {
+    margin-left: 1%;
+    border: none;
+}
+i.cnt_icon {
+    font-size: 32px;
+    color: #007bff;
+    margin-bottom: 4%;
+}
+p.card-text {
+}
+.mb-3.input_frm {
+    width: 50%;
+    margin: auto;
+}
+.form-floating {
+    width: 100%;
+
+}
+i.row_icon {
+    font-size: 27px;
+    margin-left: 5px;
+}
+.queue_icon {
+    width: 20%;
+    height: 10vh;
+    margin: auto;
+    margin-top: -3%;
+    text-align: center;
+}
+h1.queue_h1 {
+    margin-bottom: 5%;
+    font-weight: 400;
+}
+/* =========== contact area end ===========  */
+
+/* =========== footer area start ===========  */
+.footer_area{
+    width: 100%;
+    background: #161c2d;
+    margin-bottom: -47%;
+}
+p.text-center.pb-5.footer_text {
+    color: #fff;
+    padding-top: 2%;
+}
+h3.signuture i {
+    font-size: 18px;
+    margin: -5px 0;
+    display: block;
+    font-weight: 500;
+    font-family: auto;
+}
+p.card-para {
+    text-align: center;
+}
+textarea#floatingTextarea2 {
+    width: 50%;
+    margin: auto;
+}
+/* =========== footer area end ===========  */
+
+/* =========== respnocive media query start ===========  */
+/* mobile devices */
+@media screen and (max-width: 576px){
+    .flex-container{
+        background-image: none;
+    }
+    /* .col-lg-6.py-5 {
+        margin-top: 0%;
+    } */
+    button.btn.btn-primary.click{
+        width: 40%;
+    }
+    .mb-3.input_frm {
+        width: 100%;
+    }
+    textarea#floatingTextarea2 {
+        width: 100%;
+        }
+        .queue_icon{
+            width: 100%;
+            height: 0px;
+        }
+    }
+@media screen and (min-width:576px) and (max-width:960px){
+    .flex-container{
+        flex-direction: column;
+        text-align: center;
+        height: 45em;
+        background-position: bottom center, top;
+    }
+}
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(218, 216, 216);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+        text-decoration: none;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+/* =========== respnocive media query end ===========  */
