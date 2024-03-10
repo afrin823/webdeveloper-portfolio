@@ -2,7 +2,7 @@ const form = document.querySelector('form');
 const firstName = document.querySelector('#fistName');
 const emailAddress = document.querySelector('#exampleInputEmail1');
 const subject = document.querySelector('#subject');
-const comments = document.querySelector('#comments');
+const message = document.querySelector('#message');
 
 form.addEventListener('submit', formHandler);
 
@@ -14,13 +14,13 @@ function formHandler(e){
         FistName: firstName.value,
         Email: emailAddress.value,
         Subject: subject.value,
-        Comments: comments.value
+        Message: message.value
     }
 
     console.log(formInfo);
 
-    firstName.vlue = '',
+    firstName.value = '',
     emailAddress.value = '',
     subject.value = '',
-    comments.value = ''
+    message.value = ''
 }
