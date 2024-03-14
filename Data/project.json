@@ -1,23 +1,44 @@
 [    
     {
         "id": 1,
-        "images":  "https://afrin823.github.io/webdeveloper-portfolio/",
-        "Name": "Portfolio",
-        "skills": ["HTML, CSS, JavaScript, Bootstrap"],
+        "images":  "https://i.ibb.co/gMhs8wC/1.jpg",
+        "Name": "project-01",
+        "skills": ["HTML, CSS, tailwind, JavaScript, Bootstrap"],
         "Details": "https://afrin823.github.io/webdeveloper-portfolio/"
     },
     {
         "id": 2,
-        "images":  "",
-        "Name": "",
-        "skills": "",
+        "images":  "https://i.ibb.co/nCpNsLy/2.jpg",
+        "Name": "project-02",
+        "skills": ["HTML, CSS, tailwind, JavaScript, Bootstrap"],
         "Details": ""
     },
     {
         "id": 3,
-        "images":  "",
-        "Name": "",
-        "skills": "",
+        "images":  "https://i.ibb.co/b1CShk5/3.jpg",
+        "Name": "project-03" ,
+        "skills": ["HTML, CSS, tailwind, JavaScript, Bootstrap"],
+        "Details": ""
+    },
+    {
+        "id": 4,
+        "images":  "https://i.ibb.co/vQ8P30v/4.jpg",
+        "Name": "project-04",
+        "skills": ["HTML, CSS, tailwind, JavaScript, Bootstrap"],
+        "Details": ""
+    },
+    {
+        "id": 5,
+        "images":  "https://i.ibb.co/wcCtDGs/5.jpg",
+        "Name": "project-05",
+        "skills": ["HTML, CSS, tailwind, JavaScript, Bootstrap"],
+        "Details": ""
+    },
+    {
+        "id": 6,
+        "images":  "https://i.ibb.co/WpvX44Y/6.jpg",
+        "Name": "project-06",
+        "skills": ["HTML, CSS, tailwind, JavaScript, Bootstrap"],
         "Details": ""
     }
 ]
