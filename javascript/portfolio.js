@@ -15,7 +15,7 @@ function displayProject(data) {
     
         
           <div class="item">
-          <img src="${protfolio.images}" class="img-fluid mb-4" alt="">
+          <img src="${protfolio.images}" class="img-fluid mb-4 shadow" alt="">
           <span><i class="fa-solid fa-plus"></i></span>
         </div>
    
