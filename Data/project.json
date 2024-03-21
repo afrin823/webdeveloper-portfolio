@@ -1,44 +1,53 @@
 [    
     {
         "id": 1,
-        "images":  "https://i.ibb.co/3d0HK43/Screenshot-1.png",
+        "images":  "https://i.ibb.co/MGqKC3D/Screenshot-4.png",
         "Name": "project-01",
+        "title": "P-Ticket",
         "skills": ["HTML, CSS, tailwind, JavaScript, Bootstrap"],
-        "Details": "https://afrin823.github.io/webdeveloper-portfolio/"
+        "Details": "",
+        "live_site": "https://afrin823.github.io/project_01/"
     },
     {
         "id": 2,
-        "images":  "https://i.ibb.co/6w8xq1H/Screenshot-3.png",
+        "images":  "https://i.ibb.co/6yxBWn5/Screenshot-6.png",
         "Name": "project-02",
+        "title": "Retro",
         "skills": ["HTML, CSS, tailwind, JavaScript, Bootstrap"],
-        "Details": ""
+        "Details": "",
+        "live_site": "https://afrin823.github.io/project_02/"
     },
     {
         "id": 3,
         "images":  "https://i.ibb.co/XJN2Tst/Screenshot-1.png",
         "Name": "project-03" ,
+        "title": "Bungie",
         "skills": ["HTML, CSS, tailwind, JavaScript, Bootstrap"],
-        "Details": ""
+        "Details": "",
+        "live_site": "https://65fbc0005409767a9a111e97--tranquil-buttercream-b8ce3c.netlify.app/"
     },
     {
         "id": 4,
-        "images":  "https://i.ibb.co/59ch8yt/Screenshot-4.png",
+        "images":  "https://i.ibb.co/LnWg63N/Screenshot-7.png",
         "Name": "project-04",
         "skills": ["HTML, CSS, tailwind, JavaScript, Bootstrap"],
-        "Details": ""
+        "Details": "",
+        "live_site": "https://65fbc0ab8eade174bf65bdd0--zesty-eclair-664a3c.netlify.app/"
     },
     {
         "id": 5,
-        "images":  "https://i.ibb.co/WgBNgMg/Screenshot-5.png",
+        "images":  "https://i.ibb.co/ZBzCB1K/Screenshot-8.png",
         "Name": "project-05",
         "skills": ["HTML, CSS, tailwind, JavaScript, Bootstrap"],
-        "Details": ""
+        "Details": "",
+        "live_site": "https://65fbc196778809743da13309--splendorous-raindrop-2aedab.netlify.app/"
     },
     {
         "id": 6,
         "images":  "https://i.ibb.co/5BYGqDs/Screenshot-2.png",
         "Name": "project-06",
         "skills": ["HTML, CSS, tailwind, JavaScript, Bootstrap"],
-        "Details": ""
+        "Details": "",
+        "live_site": "https://65fbc32d84c18375ddca1561--chipper-figolla-e7aa04.netlify.app/"
     }
 ]

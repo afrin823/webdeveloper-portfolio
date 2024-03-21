@@ -12,13 +12,15 @@ function displayProject(data) {
     for(const protfolio of data){
         const div = document.createElement('div');
         div.innerHTML = `
+      
+        <div class="shadow pb-4 mb-4">
+        <div class="item" style="height: 320px; overflow: hidden;">
+        <img src="${protfolio.images}" class="img-fluid mb-4 w-full  rounded" alt="" >
+        <span><a href="${protfolio.images}" target="_blank"><i class="fa-solid fa-plus"></i></a></span>
+      </div>
+      <a href="${protfolio.live_site}" target="_blank" class="btn btn-primary text-white mt-3 py-2">< GO Live site /></a>
+       </div>
     
-        
-          <div class="item">
-          <img src="${protfolio.images}" class="img-fluid mb-4 shadow" alt="">
-          <span><i class="fa-solid fa-plus"></i></span>
-        </div>
-   
     
     
 
