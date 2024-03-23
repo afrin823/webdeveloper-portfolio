@@ -16,9 +16,8 @@ function displayProject(data) {
         <div class="shadow pb-4 mb-4">
         <div class="item" style="height: 320px; overflow: hidden;">
         <img src="${protfolio.images}" class="img-fluid mb-4 w-full  rounded" alt="" >
-        <span><a href="${protfolio.images}" target="_blank"><i class="fa-solid fa-plus"></i></a></span>
+        <span><a href="${protfolio.live_site}" target="_blank"><i class="fa-solid fa-plus"></i></a></span>
       </div>
-      <a href="${protfolio.live_site}" target="_blank" class="btn btn-primary text-white mt-3 py-2">< GO Live site /></a>
        </div>
     
     
@@ -28,6 +27,13 @@ function displayProject(data) {
         `;
         allProject.appendChild(div);
     }
+//     <div class="shadow pb-4 mb-4">
+//     <div class="item" style="height: 320px; overflow: hidden;">
+//     <img src="${protfolio.images}" class="img-fluid mb-4 w-full  rounded" alt="" >
+//     <span><a href="${protfolio.live_site}" target="_blank"><i class="fa-solid fa-plus"></i></a></span>
+//   </div>
+//   <a href="${protfolio.live_site}" target="_blank" class="btn btn-primary text-white mt-3 py-2">< GO Live site /></a>
+//    </div>
 }
 // ---------- portfolio project End ------------
 //===============================================
